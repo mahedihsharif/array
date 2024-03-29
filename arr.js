@@ -13,6 +13,8 @@ const names = [
   "Sakib al Hasan",
 ];
 
-names[4] = "Sopno";
+// names[4] = "Sopno";
 
+names[names.length] = "Sopno";
+names[names.length - 1] = "super shop";
 console.log(names);
